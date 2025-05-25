@@ -1,11 +1,7 @@
-import type { NextConfig } from 'next'
-
-const isGithubPages = process.env.NODE_ENV === 'production'
+import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: 'export',
-  basePath: isGithubPages ? '/utsc-data-challenge' : '',
-  assetPrefix: isGithubPages ? '/utsc-data-challenge' : '',
-}
+  /* config options here */
+};
 
-export default nextConfig
+export default nextConfig;
